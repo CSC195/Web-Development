@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*
+   CentralPerk form styles css page
+   Filename: menustyles.css
+
+*/
+
+article#menu {
+    margin-right: 15px;
+    margin-left: 500px;
+}
+
+article#menu dd{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+article#menu dt {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+article#menu i {
+    clear: both;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(140, 46, 23);
+}
+
+select#order {
+    width: 350px;
+    height: 150px;
+}
+
+section#aside {
+    float: left;
+    padding-right: 50px;
+    margin-left: 30px;
+}
+
+
+

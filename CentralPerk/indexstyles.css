@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*
+   CentralPerk css page
+
+   Filename: indexstyles.css
+
+   written by Grace Cline
+
+*/
+
+
+
+img#mobile {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+    border: 5px solid rgb(140, 46, 23);
+    border-left:none;
+    border-right:none;
+    display: block;
+}
+
+ a {
+    display: block;
+    text-decoration: none;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(140, 46, 23);
+}
+
+div#bottomimg {
+    display: none;
+}
+
+p#promo {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;   
+}
+
+
+ul {
+    margin-left: 60px;
+    padding-left: 225px;
+    padding-top: 10px;
+}
+
+li {
+    font-size: 20px;
+    margin: 5px auto;
+    padding: 20px 30px;
+}
+
+a {
+    float: left;
+    text-align: center;
+    margin: 20px 40px;
+
+}
+
+a:hover {
+    -webkit-box-shadow: -1px 0px 10px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 10px 8px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 10px 8px rgb(51, 51, 51);
+}
+
+div#bottomimg {
+    display: block;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 140px;
+}
+
+img {
+    width: 20%;
+    margin: 20px 90px;
+    float: left;
+}
+

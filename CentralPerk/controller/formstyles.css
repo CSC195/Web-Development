@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*
+   CentralPerk form styles css page
+
+   Filename: formstyles.css
+
+*/
+
+body {
+    text-align: center;
+    width: 95%;
+}
+
+h1 {
+    margin: 200px 20px 200px 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+
+form {
+    display: block;
+    padding-top: 15px;
+}
+
+label {
+    font-size: 1.5em;
+    width: 250px;
+    vertical-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 250px;
+    font-size: 0.9em;
+}
+
+/*Set the background of the input boxes to white so 
+  the password box won't have a yellow background*/
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0px 9999px whitesmoke;
+  }
+
+label, input {
+    margin: 25px 0 25px 0;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+
+div#aside {
+    float: left;
+    padding-right: 100px;
+    height: 600px;
+    -moz-box-shadow:    3px 0px 0px #ccc;
+    -webkit-box-shadow: 3px 0px 0px #ccc;
+    box-shadow:         3px 0px 0px #ccc;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="menustyles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/CentralPerk/main.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="order.js"></script>
+</head>
+<body>
+    <form id="order_form" name="order_form" action="checkout.html" method="get">
+    <section id="aside">
+        <h2>Your Order</h2>
+        <section>
+            <select id="order" name="order" size="17">
+            </select>
+            <p id="total">&nbsp;</p>            		
+        </section>
+        <section id="buttons">
+            <input type="button" name="place_order" id="place_order" value="Place Order">
+            <input type="button" name="clear_order" id="clear_order" value="Clear Order">				            		
+        </section>
+    </section>
+
+    <article id="menu">
+        <h1>Brewed Coffee</h1>
+        <dl>
+            <a href="#"><dt id="blonde">Blonde Roast Coffee</dt></a>
+            <dd>Lightly roasted coffee that's soft, mellow and flavorful.
+                <br>
+                <i>$2.11</i>
+            </dd>
+            <a href="#"><dt id="med">Medium Roast Coffee</dt></a>
+            <dd>
+                Our signature medium-roasted with a smooth, balanced and rich flavor, 
+                this is the perfect everyday coffee in a cup.
+                <br>
+                <i>$2.11</i>
+            </dd>
+            <a href="#"><dt id="dark">Dark Roast Coffee</dt></a>
+            <dd>
+                This full-bodied dark roast coffee has the bold, robust flavors 
+                to showcase our roasting and blending artistry.
+                <br>
+                <i>$2.11</i>
+            </dd>
+            <a href="#"><dt id="decaf">Decaf</dt></a>
+            <dd>
+                Our signature medium roasted coffee with a smooth, balanced and 
+                rich flavor, minus the caffeine.
+                <br>
+                <i>$2.11</i>
+            </dd>
+            <a href="#"><dt id="misto">Cafe Misto</dt></a>
+            <dd>
+                A one-to-one mix of fresh brewed coffee and steamed milk add up to 
+                one distinctly delicious coffee drink.
+                <br>
+                <i>$2.20</i>
+            </dd>  
+            <a href="#"><dt id="icedcoffee">Iced Coffee</dt></a>
+            <dd>
+                Freshly brewed Iced Coffee Blend served chilled and
+                lightly sweetened over ice. 
+                <br>
+                <i>$2.20</i>   
+            </dd>
+            <a href="#"><dt id="icedmilk">Iced Coffee with Milk</dt></a>
+            <dd>
+                Freshly brewed Iced Coffee Blend with milk – 
+                served chilled and lightly sweetened over ice.
+                <br>
+                <i>$2.20</i>
+            </dd>
+        </dl>
+        <h1>Espresso</h1>
+        <dl>
+            <a href="#"><dt id="americano">Americano</dt></a>
+            <dd>Espresso shots are topped with hot water to produce a light layer of crema. 
+                The result is this wonderfully rich cup with depth and nuance.
+                <br>
+                <i>$3.20</i> 
+            </dd>
+            <a href="#"><dt id="latte">Latte</dt></a>
+            <dd>
+                Our dark, rich espresso balanced with steamed milk and a light layer of foam. 
+                A perfect milk forward warm up.
+                <br>
+                <i>$3.45</i>
+            </dd>
+            <a href="#"><dt id="cappuccino">Cappuccino</dt></a>
+            <dd>
+                Dark, rich espresso lies in wait under a smoothed and stretched layer of thick foam. 
+                It's truly the height of our baristas' craft.
+                <br>
+                <i>$3.45</i>
+            </dd>
+            <a href="#"><dt id="mocha">Mocha</dt></a>
+            <dd>
+                We combine our rich, full-bodied espresso with bittersweet mocha sauce and steamed milk, 
+                then top it off with sweetened whipped cream. The classic coffee drink to satisfy your sweet tooth.
+                <br>
+                <i>$3.40</i>
+            </dd>
+            <a href="#"><dt id="espresso">Espresso</dt></a>
+            <dd>
+                Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.
+                <br>
+                <i>$2.11</i>
+            </dd>  
+            <a href="#"><dt id="flatwhite">Flat White</dt></a>
+            <dd>
+                Bold ristretto shots of espresso get the perfect amount of steamed whole milk to
+                create a not too strong, not too creamy, just right flavor.
+                <br>
+                <i>$3.45</i>
+            </dd>
+        </dl>
+        <h1>Other Hot Beverages</h1>
+        <dl>
+            <a href="#"><dt id="htcocoa">Hot Chocolate</dt></a>
+            <dd>
+                Steamed milk with vanilla- and mocha-flavored syrups. Topped with sweetened whipped cream and chocolate-flavored drizzle.
+                <br>
+                <i>$2.20</i>
+            </dd>
+            <a href="#"><dt id="sltcocoa">Salted Caramel Hot Chocolate</dt></a>
+            <dd>
+                Steamed milk and mocha sauce are combined with toffee nut and vanilla syrups, 
+                then topped with sweetened whipped cream, caramel sauce and a blend of turbinado sugar and sea salt. 
+                The sweet is never as sweet without the salt.
+                <br>
+                <i>$2.95<i>
+            </dd>
+            <a href="#"><dt id="chai">Chai Tea</dt></a>
+            <dd> 
+                Black tea infused with cinnamon, clove, and other warming spices is combined with steamed milk 
+                and topped with foam for the perfect balance of sweet and spicy.
+                <br>
+                <i>$3.11</i>
+            </dd>
+        </dl>
+        <br>
+        <br>
+    </article>
+    </form>
+</body>
+</html>
