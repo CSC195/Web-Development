@@ -1,3 +1,3 @@
 # Web-Development
 
-My solutions to the freecodecamp problems
+Independent web projects
